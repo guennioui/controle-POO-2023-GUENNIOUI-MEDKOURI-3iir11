@@ -1,0 +1,3 @@
+C:\Users\abdoe\Desktop\controlePOO2023\gestionBancaire\gestionBancaire\x64\Debug\gestionBancaire.vcxproj.MdMergeInputs.cache
+C:\Users\abdoe\Desktop\controlePOO2023\gestionBancaire\gestionBancaire\x64\Debug\gestionBancaire.vcxproj.cppwinrt_plat.cache
+C:\Users\abdoe\Desktop\controlePOO2023\gestionBancaire\gestionBancaire\x64\Debug\gestionBancaire.vcxproj.cppwinrt_comp.cache
