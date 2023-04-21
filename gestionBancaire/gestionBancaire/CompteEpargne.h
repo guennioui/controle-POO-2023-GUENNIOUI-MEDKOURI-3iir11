@@ -10,9 +10,10 @@ protected:
 
 public:
 
-	//constructeur par defaut et d'initialisation
+	//constructeur par defaut et d'initialisation et destructeur
 	CompteEpargne();
 	CompteEpargne(string, double, double);
+	virtual ~CompteEpargne();
 
 	//getters & setters
 	double getTauxInteret() const;

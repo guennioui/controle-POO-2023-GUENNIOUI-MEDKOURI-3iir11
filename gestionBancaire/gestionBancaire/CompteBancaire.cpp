@@ -13,6 +13,10 @@ CompteBancaire::CompteBancaire(string numero, double solde)
 	this->solde=solde;
 }
 
+CompteBancaire::~CompteBancaire()
+{
+}
+
 string CompteBancaire::getNumero() const
 {
 	return this->numero;

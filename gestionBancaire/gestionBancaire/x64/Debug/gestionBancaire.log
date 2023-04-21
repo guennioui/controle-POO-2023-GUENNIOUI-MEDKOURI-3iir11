@@ -1,2 +1,16 @@
-﻿  CompteCourantEpargne.cpp
+﻿  CompteBancaire.cpp
+C:\Users\abdoe\Desktop\controlePOO2023\gestionBancaire\gestionBancaire\CompteBancaire.cpp(30,39): warning C4458: la déclaration de 'numero' masque le membre de classe
+C:\Users\abdoe\Desktop\controlePOO2023\gestionBancaire\gestionBancaire\CompteBancaire.h(8,9): message : voir la déclaration de 'CompteBancaire::numero'
+C:\Users\abdoe\Desktop\controlePOO2023\gestionBancaire\gestionBancaire\CompteBancaire.cpp(35,38): warning C4458: la déclaration de 'solde' masque le membre de classe
+C:\Users\abdoe\Desktop\controlePOO2023\gestionBancaire\gestionBancaire\CompteBancaire.h(9,9): message : voir la déclaration de 'CompteBancaire::solde'
+  CompteCourant.cpp
+C:\Users\abdoe\Desktop\controlePOO2023\gestionBancaire\gestionBancaire\CompteCourant.cpp(23,49): warning C4458: la déclaration de 'decouvertAutorise' masque le membre de classe
+C:\Users\abdoe\Desktop\controlePOO2023\gestionBancaire\gestionBancaire\CompteCourant.h(9,9): message : voir la déclaration de 'CompteCourant::decouvertAutorise'
+  CompteCourantEpargne.cpp
+  CompteEpargne.cpp
+C:\Users\abdoe\Desktop\controlePOO2023\gestionBancaire\gestionBancaire\CompteEpargne.cpp(23,43): warning C4458: la déclaration de 'tauxInteret' masque le membre de classe
+C:\Users\abdoe\Desktop\controlePOO2023\gestionBancaire\gestionBancaire\CompteEpargne.h(9,9): message : voir la déclaration de 'CompteEpargne::tauxInteret'
+  Génération de code en cours...
+C:\Users\abdoe\Desktop\controlePOO2023\gestionBancaire\gestionBancaire\CompteCourant.cpp(33): warning C4706: assignation au sein d'une expression conditionnelle
+C:\Users\abdoe\Desktop\controlePOO2023\gestionBancaire\gestionBancaire\CompteCourant.cpp(48): warning C4715: 'CompteCourant::retirer' : les chemins de contrôle ne retournent pas tous une valeur
   gestionBancaire.vcxproj -> C:\Users\abdoe\Desktop\controlePOO2023\gestionBancaire\x64\Debug\gestionBancaire.exe

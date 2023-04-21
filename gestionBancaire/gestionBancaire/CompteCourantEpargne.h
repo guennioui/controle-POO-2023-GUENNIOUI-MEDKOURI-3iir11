@@ -8,9 +8,10 @@ class CompteCourantEpargne : public CompteCourant, public CompteEpargne
 {
 public:
 
-	//constructeur par defaut et d'initialisation
+	//constructeur par defaut et d'initialisation et destructeur
 	CompteCourantEpargne();
 	CompteCourantEpargne(string, double, double, double);
+	virtual ~CompteCourantEpargne();
 
 	//methode deposer
 	bool deposer(double);

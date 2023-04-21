@@ -9,9 +9,10 @@ protected:
 	double decouvertAutorise;
 
 public:
-	//contructeur par defaut et d'initialisation
+	//contructeur par defaut et d'initialisation et destructeur
 	CompteCourant();
 	CompteCourant(string, double, double);
+	virtual ~CompteCourant();
 
 	//getters & setters
 	double getDecouvertAutorise() const;

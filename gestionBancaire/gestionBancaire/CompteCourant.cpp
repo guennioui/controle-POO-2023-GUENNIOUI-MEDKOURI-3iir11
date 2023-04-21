@@ -11,6 +11,10 @@ CompteCourant::CompteCourant(string numero, double solde, double decouvertAutori
 	this->decouvertAutorise = decouvertAutorise;
 }
 
+CompteCourant::~CompteCourant()
+{
+}
+
 double CompteCourant::getDecouvertAutorise() const
 {
 	return this->decouvertAutorise;

@@ -7,6 +7,10 @@ CompteCourantEpargne::CompteCourantEpargne():CompteCourant(),CompteEpargne()
 
 CompteCourantEpargne::CompteCourantEpargne(string numero, double solde, double decouvertAutorise, double tauxInteret):CompteCourant(numero, solde, decouvertAutorise), CompteEpargne(numero, solde, tauxInteret) {}
 
+CompteCourantEpargne::~CompteCourantEpargne()
+{
+}
+
 bool CompteCourantEpargne::deposer(double montant)
 {
 	CompteCourant::deposer(montant);

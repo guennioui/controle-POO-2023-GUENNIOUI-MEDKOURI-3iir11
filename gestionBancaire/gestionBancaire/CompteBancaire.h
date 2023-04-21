@@ -10,9 +10,10 @@ protected:
 
 public:
 
-	//contructeur par defaut et d'initialisation
+	//contructeur par defaut et d'initialisation et destructeur
 	CompteBancaire();
 	CompteBancaire(string, double);
+	virtual ~CompteBancaire();
 
 	//getters & setters
 	string getNumero() const;

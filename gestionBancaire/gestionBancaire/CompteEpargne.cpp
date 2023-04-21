@@ -11,6 +11,10 @@ CompteEpargne::CompteEpargne(string numero, double solde, double tauxInteret):Co
 	this->tauxInteret = tauxInteret;
 }
 
+CompteEpargne::~CompteEpargne()
+{
+}
+
 double CompteEpargne::getTauxInteret() const
 {
 	return this->tauxInteret;
