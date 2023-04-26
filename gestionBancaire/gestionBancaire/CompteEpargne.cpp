@@ -27,14 +27,14 @@ void CompteEpargne::setTauxInteret(double tauxInteret)
 
 bool CompteEpargne::deposer(double montant)
 {
-	double var = montant * (tauxInteret/100);
-	this->solde += (montant + var);
+	double var = montant * tauxInteret/100;
+	this->solde += montant + var;
 	return true;
 }
 
 void CompteEpargne::afficher() const
 {
 	CompteBancaire::afficher();
-	cout << ", taux interet: " << this->tauxInteret << endl;
+	cout << ", taux interet: " << this->tauxInteret;
 }
 

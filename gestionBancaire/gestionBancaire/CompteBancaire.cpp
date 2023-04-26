@@ -15,6 +15,7 @@ CompteBancaire::CompteBancaire(string numero, double solde)
 
 CompteBancaire::~CompteBancaire()
 {
+	cout << "\n******* suppression d'un compte *******" << endl;
 }
 
 string CompteBancaire::getNumero() const
@@ -57,5 +58,5 @@ bool CompteBancaire::deposer(double montant)
 
 void CompteBancaire::afficher() const
 {
-	cout << "le compte: " << this->numero << " a le solde: " << this->solde;
+	cout << "\nle compte: " << this->numero << " a le solde: " << this->solde;
 }

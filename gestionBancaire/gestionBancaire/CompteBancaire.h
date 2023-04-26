@@ -25,9 +25,9 @@ public:
 	bool retirer(double);
 
 	//methode deposer montant
-	bool deposer(double);
+	virtual bool deposer(double);
 
 	//methode afficher informations du CompteBancaire
-	void afficher() const;
+	virtual void afficher() const;
 };
 

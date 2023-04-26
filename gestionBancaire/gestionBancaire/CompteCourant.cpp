@@ -50,5 +50,5 @@ bool CompteCourant::retirer(double montant)
 void CompteCourant::afficher() const
 {
 	CompteBancaire::afficher();
-	cout << " ainsi qu'un decouvert autoriser egal a: " << this->decouvertAutorise << endl;
+	cout << " ainsi qu'un decouvert autoriser egal a: " << this->decouvertAutorise;
 }
