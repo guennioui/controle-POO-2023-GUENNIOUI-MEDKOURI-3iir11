@@ -13,7 +13,7 @@ public:
 	//constructeur par defaut et d'initialisation et destructeur
 	CompteEpargne();
 	CompteEpargne(string, double, double);
-	virtual ~CompteEpargne();
+	~CompteEpargne();
 
 	//getters & setters
 	double getTauxInteret() const;

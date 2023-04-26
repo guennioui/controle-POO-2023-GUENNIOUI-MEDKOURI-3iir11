@@ -12,7 +12,7 @@ public:
 	//constructeur par defaut et d'initialisation et destructeur
 	CompteCourantEpargne();
 	CompteCourantEpargne(string, double, double, double);
-	virtual ~CompteCourantEpargne();
+	~CompteCourantEpargne();
 
 	//methode deposer
 	bool deposer(double);

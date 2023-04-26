@@ -1,4 +1,4 @@
-﻿/*********************** PROJET CODER PAR LE BINOME : 3iir11 **********************/                             
+﻿/*********************** PROJET CODER PAR LE BINOME : 3iir11 **********************/
 /***********************          GUENNIOUI ABDALLAH         **********************/
 /***********************          MEDKOURI ELMEHDI           **********************/
 
@@ -17,11 +17,11 @@ int main()
 	//creation de la Banque
 	Banque banque;
 
-	cout << "\n****************** Les quatres types de comptes ****************************\n" << endl;
+	cout << "****************** Les quatres types de comptes ****************************" << endl;
 	//creation des differents types de comptes
 	CompteBancaire* compteBancaire = new CompteBancaire("CB", 135000.59);
-	CompteBancaire* compteCourant  = new CompteCourant("CC", 93500.00, 1150.00);
-	CompteBancaire* compteEpargne  = new CompteEpargne("CE", 23500.00, 5.5);
+	CompteBancaire* compteCourant = new CompteCourant("CC", 93500.00, 1150.00);
+	CompteBancaire* compteEpargne = new CompteEpargne("CE", 23500.00, 5.5);
 	CompteBancaire* compteCourantEpargne = new CompteCourantEpargne("CCE", 340660.73, 2000.00, 6);
 
 	//l'ajout des differents types de compte a la banque
@@ -46,26 +46,21 @@ int main()
 	banque.afficherComptes();
 	banque.getTotalSoldes();
 
+	cout << "\n\n****************** Debut de la suppression ***************************************" << endl;
 	//suppression des deux comptes
-	banque.supprimerCompte("CB");
+	//banque.supprimerCompte("CB");
 	banque.supprimerCompte("CC");
-	banque.supprimerCompte("CE");
-	banque.supprimerCompte("CE");
-	banque.supprimerCompte("CCE");
-	cout << "\n****************** Apres suppression ***************************************\n" << endl;
+	//banque.supprimerCompte("CE");
+	banque.supprimerCompte("CCE");	
 
+	cout << "\n\n****************** Apres suppression ***************************************" << endl;
 	//affichage des comptes de la banque apres la suppression de quelque uns
 	banque.afficherComptes();
 
 	//affichage du total des soldes de l'ensemble des comptes de la banque
 	banque.getTotalSoldes();
 
-	
-	cout << "\n****************** Fin Programme ***************************************\n" << endl;
-	return 0;
 
-	//issues:
-	//probleme de la suppression du 
-	// 1- compte courant 
-	// 2- compte bancaire
+	cout << "\n\n****************** Fin Programme ***************************************\n" << endl;
+	return 0;
 }

@@ -12,7 +12,7 @@ public:
 	//contructeur par defaut et d'initialisation et destructeur
 	CompteCourant();
 	CompteCourant(string, double, double);
-	virtual ~CompteCourant();
+    ~CompteCourant();
 
 	//getters & setters
 	double getDecouvertAutorise() const;
