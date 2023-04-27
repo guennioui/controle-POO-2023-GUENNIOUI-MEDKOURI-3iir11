@@ -1,3 +1,2 @@
-﻿  Banque.cpp
-C:\Users\abdoe\Desktop\controlePOO2023\controlePOO\gestionBancaire\gestionBancaire\Banque.cpp(19): warning C4715: 'Banque::supprimerCompte' : les chemins de contrôle ne retournent pas tous une valeur
+﻿  main.cpp
   gestionBancaire.vcxproj -> C:\Users\abdoe\Desktop\controlePOO2023\controlePOO\gestionBancaire\x64\Debug\gestionBancaire.exe

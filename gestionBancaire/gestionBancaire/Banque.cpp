@@ -15,7 +15,7 @@ bool Banque::supprimerCompte(string numero)
             comptesBancaires.erase(comptesBancaires.begin() + i);
             return true;
         }
-    }    
+    }
 }
 
 void Banque::afficherComptes()
@@ -32,5 +32,5 @@ void Banque::getTotalSoldes()
     for (int i = 0; i < comptesBancaires.size(); i++) {
         totale += comptesBancaires[i]->getSolde();
     }
-    cout << "\n--->le totale des soldes de la banque est: " << totale <<" DHS<---" << endl;
+    cout << "\n\t--->le totale des soldes de la banque est: " << totale <<" DHS<---" << endl;
 }

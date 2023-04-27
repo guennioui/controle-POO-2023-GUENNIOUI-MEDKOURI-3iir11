@@ -8,16 +8,34 @@
 #include "CompteEpargne.h"
 #include "CompteCourantEpargne.h"
 #include "Banque.h"
+#include <Windows.h>
+#include <cwchar>
 #include <iostream>
 
 using namespace std;
 
 int main()
 {
+	system("Color F9");
+
+	ShowWindow(GetConsoleWindow(), SW_MAXIMIZE);
+
+	CONSOLE_FONT_INFOEX cfi;
+	cfi.cbSize = sizeof(cfi);	  
+	cfi.dwFontSize.Y = 18;                
+	cfi.FontWeight = FW_ULTRABOLD;	
+
+	SetCurrentConsoleFontEx(GetStdHandle(STD_OUTPUT_HANDLE), FALSE, &cfi);
+	cout << endl;
+	cout << "\t\t\t\t\t\t===========>  GESTION BANCAIRE   <===========\n" << endl;
+	cout << "\t\t\t\t\t\t===========>  GUENNIOUI Abdallah <===========\n" << endl;
+	cout << "\t\t\t\t\t\t===========>  MEDKOURI Elmehdi   <===========\n\n" << endl;
+
+
 	//creation de la Banque
 	Banque banque;
 
-	cout << "****************** Les quatres types de comptes ****************************" << endl;
+	cout << " ****************** Les quatres types de comptes ****************************" << endl;
 	//creation des differents types de comptes
 	CompteBancaire* compteBancaire = new CompteBancaire("CB", 135000.59);
 	CompteBancaire* compteCourant = new CompteCourant("CC", 93500.00, 1150.00);
@@ -46,14 +64,14 @@ int main()
 	banque.afficherComptes();
 	banque.getTotalSoldes();
 
-	cout << "\n\n****************** Debut de la suppression ***************************************" << endl;
+	cout << "\n\n ****************** Debut de la suppression *********************************" << endl;
 	//suppression des deux comptes
 	//banque.supprimerCompte("CB");
 	banque.supprimerCompte("CC");
 	//banque.supprimerCompte("CE");
 	banque.supprimerCompte("CCE");	
 
-	cout << "\n\n****************** Apres suppression ***************************************" << endl;
+	cout << "\n\n ****************** Apres suppression ***************************************" << endl;
 	//affichage des comptes de la banque apres la suppression de quelque uns
 	banque.afficherComptes();
 
@@ -61,6 +79,6 @@ int main()
 	banque.getTotalSoldes();
 
 
-	cout << "\n\n****************** Fin Programme ***************************************\n" << endl;
+	cout << "\n\n ****************** Fin Programme *******************************************" << endl;
 	return 0;
 }
