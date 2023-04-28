@@ -66,9 +66,9 @@ int main()
 
 	cout << "\n\n ****************** Debut de la suppression *********************************" << endl;
 	//suppression des deux comptes
-	//banque.supprimerCompte("CB");
+	banque.supprimerCompte("CB");
 	banque.supprimerCompte("CC");
-	//banque.supprimerCompte("CE");
+	banque.supprimerCompte("CE");
 	banque.supprimerCompte("CCE");	
 
 	cout << "\n\n ****************** Apres suppression ***************************************" << endl;
